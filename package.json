@@ -1,0 +1,42 @@
+{
+  "name": "react-webpack-5-babel-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.tsx",
+  "scripts": {
+    "dev": "webpack serve --config webpack/webpack.config.js --env env=dev --open",
+    "build": "webpack --config webpack/webpack.config.js --env env=prod",
+    "build-serve": "webpack --config webpack/webpack.config.js --env env=prod && serve -s build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "webpack 5", "react webpack boilerplate", "boilerplate"],
+  "author": "Punit Soni",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.15.0",
+    "@babel/preset-env": "7.15.0",
+    "@babel/preset-react": "7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-loader": "8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^6.2.0",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "node-sass": "4.14.1",
+    "react-svg-loader": "^3.0.3",
+    "sass-loader": "^12.1.0",
+    "source-map-explorer": "^2.5.2",
+    "url-loader": "^4.1.1",
+    "webpack": "5.51.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "4.8.0",
+    "webpack-dev-server": "4.0.0"
+  },
+  "dependencies": {
+    "react": "^18.0.0-alpha-8723e772b-20210826",
+    "react-dom": "^18.0.0-alpha-8723e772b-20210826",
+    "react-router-dom": "^5.2.1"
+  }
+}
