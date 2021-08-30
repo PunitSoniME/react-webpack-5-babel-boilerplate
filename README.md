@@ -1,6 +1,6 @@
 # React 18 alpha, Webpack 5, react-router Babel boilerplate
 
-# Commaands
+# Commands
 ## yarn run dev - install packages and to start the app
 ## yarn run build - to get the production build
 ## yarn run build-serve - to get the production build and run the app, open localhost:5000 to test the build
