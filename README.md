@@ -1,4 +1,4 @@
-# React 18 alpha, Tailwind, SCSS, axios, react-router, lazy loading for chunk
+# React 18 alpha, Webpack 5, react-router Babel boilerplate
 
 # Commaands
 ## yarn run dev - install packages and to start the app
